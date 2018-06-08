@@ -1,1 +1,2 @@
 # zeppelin-notebooks
+These are examples of how I used pyspark in zeppelin notebooks to analyze data quality problems due to ETL. These are ad-hoc.  Often I had to look at the S3 file to see if the problem was in the file that had been copied to Redshift.  Many times the files were very large, in GB.  Pyspark makes it so you can load a file into memory and after creating a dataframe, query it with SQL and see the output in tabular form or in graphical form!  Very cool.
